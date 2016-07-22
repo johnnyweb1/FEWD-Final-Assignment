@@ -65,6 +65,15 @@ body {
 /* MENU
 / modified from http://www.jqueryscript.net/menu/Animated-Radial-Menu-with-jQuery-CSS3-Transitions.html
 /*******************************************/
+.menuInstructions{
+  position:absolute;
+  width: 18rem;
+  font-size: 2rem;
+  padding-top: 21rem;
+  padding-left: 1rem;
+  z-index: 4;
+}
+
 
 .radial-menu {
     top: 1.5rem;
@@ -467,6 +476,10 @@ footer h3 {
     }
     .radial-menu {
         display: none;
+    }
+
+    .menuInstructions{
+      display:none;
     }
     #container {
         width: auto;
