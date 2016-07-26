@@ -1,10 +1,10 @@
 /**
- *Java Script for Indigo and the big balloon
+ *Java Script for Inca and the big balloon
  *Developed by John Webster
  *John @ paritybit.io http://paritybit.io
  */
 
-//assistance on random moving http://jsfiddle.net/Xw29r/5983/
+
 
 
 
@@ -139,7 +139,7 @@ function start() {
     thanksMenu.onclick = function() {
         swal({
             title: "Thanks to the following people",
-            text: "Artwork by Cecile Zinsstag, Everyone at GA (especially the instructors) uses SweetAlert, Buzz & JS waypoints. Full credits on the last page ",
+            text: "Artwork by Cecile Zinsstag, Everyone at GA (especially the instructors David and Tom) uses SweetAlert, Buzz & JS waypoints. Full credits on the last page ",
             imageUrl: "images/mini-balloon.png"
         });
     }
@@ -219,7 +219,7 @@ function start() {
     thanksMenuMob.onclick = function() {
         swal({
             title: "Thanks to the following people",
-            text: "Artwork by Cecile Zinsstag, , alert windows use SweetAlert, Music by blah, sound triggers use Buzz, JS waypoints ",
+            text: "Artwork by Cecile Zinsstag & Thanks to David and Tom @ GA - full credits in the footer ",
             imageUrl: "images/mini-balloon.png"
         });
     }
@@ -227,11 +227,10 @@ function start() {
     aboutMenuMob.onclick = function() {
         swal({
             title: "Made as a final project for Front End Web Development 12 at General Assembly, Melbourne",
-            text: "You too can learn how to do this stuff, visit: https://generalassemb.ly/education/front-end-web-development",
+            text: "You too can learn how to do this stuff, links are in the footer",
             type: "success"
         });
     }
-
 
     //checks to see if voice is on or off and presents a different menu depending on outcome
     voxMenuMob.onclick = function() {
@@ -344,6 +343,7 @@ function start() {
             animateGirl(); //and  . . . loop
         });
     };
+    //assistance on random moving http://jsfiddle.net/Xw29r/5983/
     //************************************END MOVING INCA ***************************************************
 
 

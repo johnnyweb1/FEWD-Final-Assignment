@@ -390,7 +390,7 @@ img {
     z-index: -2;
 }
 .hangTheCritters {
-    /* harsh name perhaps - this is the transition for the ropeCritters to appear*/
+    /* harsh name perhaps? - this is the transition for the ropeCritters to appear*/
     opacity: 1;
     transition: 5s ease-in;
 }
@@ -402,7 +402,7 @@ img {
 .incaFlys {
     /* this is the div Inca sits in */
     position: fixed;
-    top: 5rem;
+    top: 10rem;
     left: 35rem;
     width: 13rem;
     height: 40rem;
@@ -446,7 +446,8 @@ img {
     /* remove the underline */
 }
 .textFrameFooter a:hover, a:active {
-    font-size: 2.8rem text-decoration: none;
+    font-size: 2.8rem;
+    text-decoration: none;
     /* remove the underline */
     color: red;
     text-shadow: 2px 2px 4px #000000;
@@ -477,7 +478,6 @@ footer h3 {
     .radial-menu {
         display: none;
     }
-
     .menuInstructions{
       display:none;
     }
